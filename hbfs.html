@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarderBetterFasterStronger</title>
+    <link rel="stylesheet" href="hbfs.css">
+    <script type="text/javascript">
+        const work_it = new Audio();
+        work_it.src = 'sounds/Work.mp3';
+        const make_it = new Audio();
+        make_it.src = 'sounds/make.mp3';
+        const do_it = new Audio();
+        do_it.src = 'sounds/Do.mp3';
+        const makes_us = new Audio();
+        makes_us.src = 'sounds/makes.mp3';
+
+        const harder = new Audio();
+        harder.src = 'sounds/harder.mp3';
+        const better_ = new Audio();
+        better_.src = 'sounds/better.mp3';
+        const faster = new Audio();
+        faster.src = 'sounds/fast.mp3';
+        const stronger = new Audio();
+        stronger.src = 'sounds/stronger.mp3';
+    </script>
+</head>
+<body>
+    <div class="container">
+        <ul class="">
+            <li><button class="work" onclick="work_it.play();">Work It</button></li>
+            <li><button class="make" onclick="make_it.play();">Make It</button></li>
+            <li><button class="do" onclick="do_it.play();">Do It</button></li>
+            <li><button class="makes" onclick="makes_us.play();">Makes Us</button></li>
+        </ul>
+
+        <ul>
+            <li><button class="hard" onclick="harder.play();">Harder</button></li>
+            <li><button class="better" onclick="better_.play();">Better</button></li>
+            <li><button class="fast" onclick="faster.play();">Faster</button></li>
+            <li><button class="str" onclick="stronger.play();">Stronger</button></li>
+            
+        </ul>
+    </div>
+</body>
+</html>

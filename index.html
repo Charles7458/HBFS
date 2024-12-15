@@ -23,11 +23,30 @@
         faster.src = 'sounds/fast.mp3';
         const stronger = new Audio();
         stronger.src = 'sounds/stronger.mp3';
+
+        const  morethan = new Audio();
+        morethan.src = 'sounds/morethan.mp3';
+        const hour = new Audio();
+        hour.src = 'sounds/hour.mp3';
+        const our = new Audio();
+        our.src = 'sounds/our.mp3';
+        const never = new Audio();
+        never.src = 'sounds/never.mp3';
+
+        const ever = new Audio();
+        ever.src = 'sounds/ever.mp3';
+        const after = new Audio();
+        after.src = 'sounds/after.mp3';
+        const work_is = new Audio();
+        work_is.src = 'sounds/workis.mp3';
+        const over = new Audio();
+        over.src = 'sounds/over.mp3';
     </script>
 </head>
 <body>
     <div class="container">
-        <ul class="">
+        <div class="inside">
+        <ul>
             <li><button class="work" onclick="work_it.play();">Work It</button></li>
             <li><button class="make" onclick="make_it.play();">Make It</button></li>
             <li><button class="do" onclick="do_it.play();">Do It</button></li>
@@ -39,6 +58,22 @@
             <li><button class="better" onclick="better_.play();">Better</button></li>
             <li><button class="fast" onclick="faster.play();">Faster</button></li>
             <li><button class="str" onclick="stronger.play();">Stronger</button></li>
+            
+        </ul>
+        </div>
+        <p>______________________________________________________</p>
+        <ul>
+            <li><button class="work" onclick="morethan.play();">More than</button></li>
+            <li><button class="make" onclick="hour.play();">Hour</button></li>
+            <li><button class="do" onclick="our.play();">Our</button></li>
+            <li><button class="makes" onclick="never.play();">Never</button></li>
+        </ul>
+
+        <ul>
+            <li><button class="hard" onclick="ever.play();">Ever</button></li>
+            <li><button class="better" onclick="after.play();">After</button></li>
+            <li><button class="fast" onclick="work_is.play();">Work is</button></li>
+            <li><button class="str" onclick="over.play();">Over</button></li>
             
         </ul>
     </div>

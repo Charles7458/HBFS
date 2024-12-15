@@ -20,13 +20,15 @@ body {
     border-radius: 10px;
     text-align: center;
     align-items: center;
+    color: white;
 }
+
 
 button {
     padding: 20px 50px;
     font-size: 15px;
     width: 200px;
-    margin: 50px;
+    margin: 10px;
     border-radius: 8px;
     cursor: pointer;
 }

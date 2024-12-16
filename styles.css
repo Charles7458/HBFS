@@ -11,6 +11,7 @@ body {
     align-items: center;
     background-color: rgb(21, 21, 29);
     min-height: 100vh;
+    color: azure;
 }
 
 .container {
@@ -65,15 +66,19 @@ ul {
 header {
     position: fixed;
     top: 2%;
-    color: azure;
     font-size: clamp(13px,3.5vw,16px);
 }
 
 header a , footer a{
     color: rgb(36, 112, 243);
+    
+}
+
+.instr {
+    position: fixed;
+    top:6%;
 }
 footer {
     position: fixed;
     bottom: 0;
-    color: azure;
 }

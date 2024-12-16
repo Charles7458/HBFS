@@ -25,11 +25,11 @@ body {
 
 
 button {
-    padding: 20px 50px;
-    font-size: 15px;
-    width: 200px;
+    padding: 10px 10px;
+    font-size: 13px;
+    width: 130px;
     margin: 10px;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -60,4 +60,20 @@ ul {
 
 .do:hover, .hard:hover  {
         background-color: rgb(195, 195, 2);
+}
+
+header {
+    position: fixed;
+    top: 2%;
+    color: azure;
+    font-size: clamp(13px,4vw,16px);
+}
+
+header a , footer a{
+    color: rgb(36, 112, 243);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    color: azure;
 }
